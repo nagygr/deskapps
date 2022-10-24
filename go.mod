@@ -1,4 +1,4 @@
-module deskapps
+module github.com/nagygr/deskapps
 
 go 1.19
 
