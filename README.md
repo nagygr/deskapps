@@ -16,7 +16,7 @@ repeated:
 As an example of how it looks like, here's a short extract of an actual output:
 
 ```
-ConsoleOnly]
+[ConsoleOnly]
 	ranger (ranger)
 		Launches the ranger file manager
 	Htop (htop)
@@ -67,6 +67,17 @@ The application needs to be compiled. For this, a working Go build environment
 is needed. Please refer to your distribution's package manager or visit
 [this][1] page for information on how to install Go.
 
+>	**Note**
+>
+>	Go can typically be installed using package managers, although it might not
+>	be the latest version that's available (especially if the package manager
+>	serves a point release distribution). Some install commands for popular
+>	package managers are:
+>
+>	Arch/Manjaro: `packman -S go`
+>	Fedora: `dnf install golang`
+>	Ubuntu: `apt-get install golang`
+
 Once Go is available on the system, the compilation can be performed by
 issuing:
 
@@ -81,5 +92,19 @@ make all
 ```
 
 The binary will be available in the `build` folder of the repositry root.
+
+## Installation
+
+The application can also be installed from `github` using the following
+command:
+
+```bash
+go install github.com/nagygr/deskapps@latest
+```
+
+>	**Note**
+>
+>	Please note, that the command above also requires Go to be installed on the
+>	system. Please see details about Go installation above.
 
 [1]: https://go.dev/doc/install
