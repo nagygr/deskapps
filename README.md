@@ -99,7 +99,7 @@ The application can also be installed from `github` using the following
 command:
 
 ```bash
-go install github.com/nagygr/deskapps@latest
+go install github.com/nagygr/deskapps/cmd/deskapps@latest
 ```
 
 >	**Note**
