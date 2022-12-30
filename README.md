@@ -63,7 +63,7 @@ As an example of how it looks like, here's a short extract of an actual output:
 
 ## Compilation
 
-The application needs to be compiled. For this, a working Go build environment
+The application needs to be compiled. In order to do that, a working Go build environment
 is needed. Please refer to your distribution's package manager or visit
 [this][1] page for information on how to install Go.
 
@@ -74,7 +74,7 @@ is needed. Please refer to your distribution's package manager or visit
 >	serves a point release distribution). Some install commands for popular
 >	package managers are:
 >
->	Arch/Manjaro: `packman -S go`
+>	Arch/Manjaro: `pacman -S go`
 >	Fedora: `dnf install golang`
 >	Ubuntu: `apt-get install golang`
 
